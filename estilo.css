@@ -1,9 +1,8 @@
 
 body {
-  margin: 0;
+  margin:0;
   padding: 0;
 }
-
 .tela-inicial {
   width: 100%;
   height: 100vh;
@@ -11,14 +10,16 @@ body {
   text-align: center;
 }
 
-.logo {
-  width: 50%;
+.logo{
+  width: 60%;
+  margin-top: 100px;
+  
 }
 
-.iniciar {
+.iniciar{
   background: blue;
-  font-size: 50px;
-  border: 8px solid darkblue;
+  font-size: 40px;
+  border: 8px solid blue;
   margin-top: 120px;
   color: yellow;
   padding: 10px 20px 10px 20px;
@@ -26,6 +27,30 @@ body {
 
 .tela-pergunta {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: yellow;
+  text-align: center;
+}
+
+.cerebro {
+  width: 50%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  
+}
+
+.pergunta {
+  background: white;
+  width: 70%;
+  font-size: 30px;
+  padding: 30px 20px 30px 20px;
+  margin: 0 auto;
+
+}
+
+.botao-responder {
+  background: whitesmoke;
+  padding: 10px 40px 10px 40px;
+  font-size: 25px;
+  margin-top: 20px;
 }
